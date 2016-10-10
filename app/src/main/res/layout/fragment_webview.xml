@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newsvarta.dvimaniya.fragments.WebviewFrag">
+
+
+    <!--<WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wvSourceUrl"
+        android:layout_gravity="center" >
+
+
+        </WebView>
+
+    <ImageButton
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:id="@+id/ibCross"
+        android:background="@drawable/appicon"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/_50sdp"/>-->
+
+</FrameLayout>

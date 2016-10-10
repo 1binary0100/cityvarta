@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/lightblack"
+    android:fontFamily="sans-serif-thin"
+    tools:context="com.newsvarta.dvimaniya.SuggestionsActivity">
+
+    <TextView
+        android:layout_marginTop="@dimen/_50sdp"
+        android:id="@+id/tvSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Your suggestions are appreciated Aurangabadkars.Please do suggest us what we can improve and what new features that you want"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:id="@+id/tvQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSuggest"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="sans-serif-light"
+        android:text="&#034;To improve is to change, so to be perfect is to have changed often&#034;.
+                                                                -Winston Churchill"
+        android:textColor="@color/White"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Email*"
+        android:fontFamily="sans-serif-thin"
+        android:textColorHint="@color/White"
+        android:layout_below="@+id/tvQuote"/>
+
+    <EditText
+        android:id="@+id/etSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_below="@+id/etEmail"
+        android:hint="Suggestions*"
+        android:fontFamily="sans-serif-thin"
+        android:textColorHint="@color/White"/>
+
+    <Button
+        android:id="@+id/btnSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSuggestion"
+        android:text="Suggest"
+        android:textColor="@color/White"
+        android:background="@color/OrangeRedD"/>
+
+</RelativeLayout>
